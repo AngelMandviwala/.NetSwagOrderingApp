@@ -4,9 +4,10 @@
     <color android:color="@color/splash_background"/>
   </item>
   <item>
+  
     <bitmap
-        android:src="@drawable/splash_logo"
+        android:src="@drawable/net"
         android:tileMode="disabled"
-        android:gravity="center"/>
+        android:gravity="center_horizontal"/>
   </item>
 </layer-list>

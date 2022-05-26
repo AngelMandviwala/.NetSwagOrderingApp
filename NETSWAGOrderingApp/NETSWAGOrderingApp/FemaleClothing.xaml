@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NETSWAGOrderingApp.FemaleClothing">
+
+    <NavigationPage.TitleView>
+        <Label Text="Female Clothing"
+               HorizontalOptions="Start"/>
+    </NavigationPage.TitleView>
+
+    <ContentPage.Content>
+        <Grid Padding="50">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0">
+                <ImageButton Source="tshirt1.jpg"  
+                             HeightRequest="90"
+                             BackgroundColor="Black" />
+            </StackLayout>
+
+            <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0">
+                <ImageButton Source="tshirt2.jpg" 
+                             HeightRequest="90"
+                             BackgroundColor="Black" 
+                             />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1">
+                <ImageButton Source="tshirt3.jpg" 
+                             HeightRequest="90"
+                             BackgroundColor="Black"
+                             />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="1">
+                <ImageButton Source="tshirt4.jpg" 
+                             HeightRequest="90"
+                             BackgroundColor="Black" 
+                            />
+            </StackLayout>
+
+        </Grid>
+              
+              
+    </ContentPage.Content>
+    
+</ContentPage>

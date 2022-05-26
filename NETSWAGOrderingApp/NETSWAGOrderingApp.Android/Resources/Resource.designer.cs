@@ -244,6 +244,10 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::NETSWAGOrderingApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::NETSWAGOrderingApp.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::NETSWAGOrderingApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromLeft = global::NETSWAGOrderingApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.EnterFromRight = global::NETSWAGOrderingApp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToLeft = global::NETSWAGOrderingApp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Android.Resource.Animation.ExitToRight = global::NETSWAGOrderingApp.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::NETSWAGOrderingApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_in = global::NETSWAGOrderingApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.mtrl_bottom_sheet_slide_out = global::NETSWAGOrderingApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
@@ -2620,6 +2624,7 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_search_view = global::NETSWAGOrderingApp.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::NETSWAGOrderingApp.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.abc_tooltip = global::NETSWAGOrderingApp.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.BottomTabLayout = global::NETSWAGOrderingApp.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.custom_dialog = global::NETSWAGOrderingApp.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
@@ -2636,6 +2641,9 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_end_icon = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_text_input_end_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.design_text_input_start_icon = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackTabbarDoNotUse = global::NETSWAGOrderingApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FallbackToolbarDoNotUse = global::NETSWAGOrderingApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.FlyoutContent = global::NETSWAGOrderingApp.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.material_chip_input_combo = global::NETSWAGOrderingApp.Droid.Resource.Layout.material_chip_input_combo;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.material_clockface_textview = global::NETSWAGOrderingApp.Droid.Resource.Layout.material_clockface_textview;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.material_clockface_view = global::NETSWAGOrderingApp.Droid.Resource.Layout.material_clockface_view;
@@ -2694,10 +2702,13 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::NETSWAGOrderingApp.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::NETSWAGOrderingApp.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::NETSWAGOrderingApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.RootLayout = global::NETSWAGOrderingApp.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::NETSWAGOrderingApp.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::NETSWAGOrderingApp.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::NETSWAGOrderingApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::NETSWAGOrderingApp.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::NETSWAGOrderingApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::NETSWAGOrderingApp.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::NETSWAGOrderingApp.Droid.Resource.Layout.test_action_chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_chip_zero_corner_radius = global::NETSWAGOrderingApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_checkbox = global::NETSWAGOrderingApp.Droid.Resource.Layout.test_design_checkbox;
@@ -2713,6 +2724,7 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_layout = global::NETSWAGOrderingApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_style = global::NETSWAGOrderingApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_theme_line_height = global::NETSWAGOrderingApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::NETSWAGOrderingApp.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Plurals.mtrl_badge_content_description = global::NETSWAGOrderingApp.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::NETSWAGOrderingApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_up_description = global::NETSWAGOrderingApp.Droid.Resource.String.abc_action_bar_up_description;
@@ -5519,6 +5531,10 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Animation.design_bottom_sheet_slide_out = global::NETSWAGOrderingApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_in = global::NETSWAGOrderingApp.Droid.Resource.Animation.design_snackbar_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.design_snackbar_out = global::NETSWAGOrderingApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromLeft = global::NETSWAGOrderingApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Platform.Resource.Animation.EnterFromRight = global::NETSWAGOrderingApp.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Platform.Resource.Animation.ExitToLeft = global::NETSWAGOrderingApp.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Platform.Resource.Animation.ExitToRight = global::NETSWAGOrderingApp.Droid.Resource.Animation.ExitToRight;
 			global::Xamarin.Forms.Platform.Resource.Animation.fragment_fast_out_extra_slow_in = global::NETSWAGOrderingApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_in = global::NETSWAGOrderingApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.mtrl_bottom_sheet_slide_out = global::NETSWAGOrderingApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
@@ -7895,6 +7911,7 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_search_view = global::NETSWAGOrderingApp.Droid.Resource.Layout.abc_search_view;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_select_dialog_material = global::NETSWAGOrderingApp.Droid.Resource.Layout.abc_select_dialog_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.abc_tooltip = global::NETSWAGOrderingApp.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Platform.Resource.Layout.BottomTabLayout = global::NETSWAGOrderingApp.Droid.Resource.Layout.BottomTabLayout;
 			global::Xamarin.Forms.Platform.Resource.Layout.custom_dialog = global::NETSWAGOrderingApp.Droid.Resource.Layout.custom_dialog;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_navigation_item = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_bottom_navigation_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_bottom_sheet_dialog = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
@@ -7911,6 +7928,9 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu_item = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_navigation_menu_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_end_icon = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_text_input_end_icon;
 			global::Xamarin.Forms.Platform.Resource.Layout.design_text_input_start_icon = global::NETSWAGOrderingApp.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackTabbarDoNotUse = global::NETSWAGOrderingApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Forms.Platform.Resource.Layout.FallbackToolbarDoNotUse = global::NETSWAGOrderingApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Forms.Platform.Resource.Layout.FlyoutContent = global::NETSWAGOrderingApp.Droid.Resource.Layout.FlyoutContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.material_chip_input_combo = global::NETSWAGOrderingApp.Droid.Resource.Layout.material_chip_input_combo;
 			global::Xamarin.Forms.Platform.Resource.Layout.material_clockface_textview = global::NETSWAGOrderingApp.Droid.Resource.Layout.material_clockface_textview;
 			global::Xamarin.Forms.Platform.Resource.Layout.material_clockface_view = global::NETSWAGOrderingApp.Droid.Resource.Layout.material_clockface_view;
@@ -7969,10 +7989,13 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_media_custom = global::NETSWAGOrderingApp.Droid.Resource.Layout.notification_template_media_custom;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_part_chronometer = global::NETSWAGOrderingApp.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Xamarin.Forms.Platform.Resource.Layout.notification_template_part_time = global::NETSWAGOrderingApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Platform.Resource.Layout.RootLayout = global::NETSWAGOrderingApp.Droid.Resource.Layout.RootLayout;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_item_material = global::NETSWAGOrderingApp.Droid.Resource.Layout.select_dialog_item_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_multichoice_material = global::NETSWAGOrderingApp.Droid.Resource.Layout.select_dialog_multichoice_material;
 			global::Xamarin.Forms.Platform.Resource.Layout.select_dialog_singlechoice_material = global::NETSWAGOrderingApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::NETSWAGOrderingApp.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::NETSWAGOrderingApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::NETSWAGOrderingApp.Droid.Resource.Layout.Tabbar;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::NETSWAGOrderingApp.Droid.Resource.Layout.test_action_chip;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_chip_zero_corner_radius = global::NETSWAGOrderingApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Layout.test_design_checkbox = global::NETSWAGOrderingApp.Droid.Resource.Layout.test_design_checkbox;
@@ -7988,6 +8011,7 @@ namespace NETSWAGOrderingApp.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_layout = global::NETSWAGOrderingApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
 			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_style = global::NETSWAGOrderingApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
 			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_theme_line_height = global::NETSWAGOrderingApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::NETSWAGOrderingApp.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Plurals.mtrl_badge_content_description = global::NETSWAGOrderingApp.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description = global::NETSWAGOrderingApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_up_description = global::NETSWAGOrderingApp.Droid.Resource.String.abc_action_bar_up_description;
@@ -10856,16 +10880,16 @@ namespace NETSWAGOrderingApp.Droid
 			public const int design_snackbar_out = 2130771995;
 			
 			// aapt resource value: 0x7F01001C
-			public const int enterfromleft = 2130771996;
+			public const int EnterFromLeft = 2130771996;
 			
 			// aapt resource value: 0x7F01001D
-			public const int enterfromright = 2130771997;
+			public const int EnterFromRight = 2130771997;
 			
 			// aapt resource value: 0x7F01001E
-			public const int exittoleft = 2130771998;
+			public const int ExitToLeft = 2130771998;
 			
 			// aapt resource value: 0x7F01001F
-			public const int exittoright = 2130771999;
+			public const int ExitToRight = 2130771999;
 			
 			// aapt resource value: 0x7F010020
 			public const int fragment_fast_out_extra_slow_in = 2130772000;
@@ -16595,58 +16619,82 @@ namespace NETSWAGOrderingApp.Droid
 			public const int navigation_empty_icon = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int notification_action_background = 2131165312;
+			public const int net = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int notification_bg = 2131165313;
+			public const int notification_action_background = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int notification_bg_low = 2131165314;
+			public const int notification_bg = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_bg_low_normal = 2131165315;
+			public const int notification_bg_low = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg_low_pressed = 2131165316;
+			public const int notification_bg_low_normal = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int notification_bg_normal = 2131165317;
+			public const int notification_bg_low_pressed = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_normal_pressed = 2131165318;
+			public const int notification_bg_normal = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_icon_background = 2131165319;
+			public const int notification_bg_normal_pressed = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_template_icon_bg = 2131165320;
+			public const int notification_icon_background = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_template_icon_low_bg = 2131165321;
+			public const int notification_template_icon_bg = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_tile_bg = 2131165322;
+			public const int notification_template_icon_low_bg = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notify_panel_notification_icon_bg = 2131165323;
+			public const int notification_tile_bg = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int preference_list_divider_material = 2131165324;
+			public const int notify_panel_notification_icon_bg = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int splash_logo = 2131165325;
+			public const int preference_list_divider_material = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int splash_screen = 2131165326;
+			public const int profile = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int test_custom_background = 2131165327;
+			public const int shop = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_dark = 2131165328;
+			public const int shoppingbag = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int tooltip_frame_light = 2131165329;
+			public const int splash_logo = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int splash_screen = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int test_custom_background = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int tooltip_frame_dark = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int tooltip_frame_light = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int tshirt1 = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int tshirt2 = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int tshirt3 = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int tshirt4 = 2131165337;
 			
 			static Drawable()
 			{
@@ -18390,7 +18438,7 @@ namespace NETSWAGOrderingApp.Droid
 			public const int abc_tooltip = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int bottomtablayout = 2131427356;
+			public const int BottomTabLayout = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
 			public const int browser_actions_context_menu_page = 2131427357;
@@ -18450,13 +18498,13 @@ namespace NETSWAGOrderingApp.Droid
 			public const int expand_button = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int fallbacktabbardonotuse = 2131427376;
+			public const int FallbackTabbarDoNotUse = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int fallbacktoolbardonotuse = 2131427377;
+			public const int FallbackToolbarDoNotUse = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int flyoutcontent = 2131427378;
+			public const int FlyoutContent = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
 			public const int image_frame = 2131427379;
@@ -18684,7 +18732,7 @@ namespace NETSWAGOrderingApp.Droid
 			public const int preference_widget_switch_compat = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int rootlayout = 2131427454;
+			public const int RootLayout = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
 			public const int select_dialog_item_material = 2131427455;
@@ -18696,13 +18744,13 @@ namespace NETSWAGOrderingApp.Droid
 			public const int select_dialog_singlechoice_material = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int shellcontent = 2131427458;
+			public const int ShellContent = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
 			public const int support_simple_spinner_dropdown_item = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int tabbar = 2131427460;
+			public const int Tabbar = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
 			public const int test_action_chip = 2131427461;
@@ -18750,7 +18798,7 @@ namespace NETSWAGOrderingApp.Droid
 			public const int text_view_with_theme_line_height = 2131427474;
 			
 			// aapt resource value: 0x7F0B0094
-			public const int toolbar = 2131427476;
+			public const int Toolbar = 2131427476;
 			
 			static Layout()
 			{
