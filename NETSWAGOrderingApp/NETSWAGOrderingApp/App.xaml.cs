@@ -10,7 +10,7 @@ namespace NETSWAGOrderingApp
         {
             InitializeComponent();
 
-            MainPage = new TabPage();
+            MainPage = new NavigationPage(new TabPage());
         }
 
         protected override void OnStart()

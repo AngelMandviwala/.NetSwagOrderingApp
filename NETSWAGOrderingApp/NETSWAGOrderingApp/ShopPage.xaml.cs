@@ -22,9 +22,9 @@ namespace NETSWAGOrderingApp
         }
 
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked_1(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new TabPage());
+            await Navigation.PushAsync(new FemaleClothing());
         }
     }
 }
