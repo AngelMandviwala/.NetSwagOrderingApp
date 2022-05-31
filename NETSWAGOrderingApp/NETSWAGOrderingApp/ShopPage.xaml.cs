@@ -22,9 +22,14 @@ namespace NETSWAGOrderingApp
         }
 
 
-        private async void Button_Clicked_1(object sender, EventArgs e)
+        private async void Female_Clothing(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new FemaleClothing());
+        }
+
+        private async void Male_Clothing(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MaleClothing());
         }
     }
 }
