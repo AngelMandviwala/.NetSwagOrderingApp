@@ -9,7 +9,33 @@
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
-        <Grid Padding="50">
+        <ListView ItemsSource="{Binding Items }" SelectionMode="None" ItemTapped="FemaleClothing_Tapped" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Margin="5" Orientation="Vertical" HorizontalOptions="Center">
+
+                            <Image Source="{Binding ImagePath}"  
+                                   HeightRequest="90"
+                                   BackgroundColor="Black"/>
+
+                            <Label TextColor="Black"
+                                   Text="{Binding Description}"
+                                   FontSize="Subtitle"
+                                   HorizontalTextAlignment="Center"/>
+                     
+                            <Label TextColor="Black"
+                                   Text="{Binding FormattedPrice}"
+                                   FontSize="Subtitle"
+                                   HorizontalTextAlignment="Center"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+        
+      <!--  <Grid Padding="50">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
@@ -21,34 +47,67 @@
             </Grid.ColumnDefinitions>
 
             <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0">
-                <ImageButton Source="tshirt1.jpg"  
+                <ImageButton Source="{Binding Items[0].ImagePath}"  
                              HeightRequest="90"
-                             BackgroundColor="Black" />
+                             BackgroundColor="Black"
+                             Clicked="ImageButton_Clicked"/>
+                <Label TextColor="Black"
+                       Text="{Binding Items[0].Description}"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
+                <Label TextColor="Black"
+                       Text="{Binding Items[0].Price}"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
             </StackLayout>
 
             <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0">
-                <ImageButton Source="tshirt2.jpg" 
+                <ImageButton Source="{Binding Items[1].ImagePath}" 
                              HeightRequest="90"
-                             BackgroundColor="Black" 
-                             />
+                             BackgroundColor="Black"
+                             Clicked="ImageButton_Clicked"/>
+                <Label TextColor="Black"
+                       Text="{Binding Items[1].ImagePath}"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
+                <Label TextColor="Black"
+                       Text="{Binding Items[1].Price}"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
             </StackLayout>
 
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1">
-                <ImageButton Source="tshirt3.jpg" 
+                <ImageButton Source="{Binding Items[2].ImagePath}" 
                              HeightRequest="90"
                              BackgroundColor="Black"
-                             />
+                             Clicked="ImageButton_Clicked"/>
+                <Label TextColor="Black"
+                       Text="{Binding Items[2].Description}"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
+                <Label TextColor="Black"
+                       Text="{Binding Items[2].Price}"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
             </StackLayout>
 
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="1">
-                <ImageButton Source="tshirt4.jpg" 
+                <ImageButton Source="{Binding Items[3].ImagePath}" 
                              HeightRequest="90"
-                             BackgroundColor="Black" 
-                            />
+                             BackgroundColor="Black"
+                             Clicked="ImageButton_Clicked"/>
+                <Label TextColor="Black"
+                       Text="{Binding Items[3].Description}"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
+                <Label TextColor="Black"
+                       Text="{Binding Items[3].Price}"
+                       FontSize="Subtitle"
+                       HorizontalTextAlignment="Center"/>
             </StackLayout>
 
         </Grid>
-              
+              -->
               
     </ContentPage.Content>
     

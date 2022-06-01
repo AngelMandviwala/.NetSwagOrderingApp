@@ -9,46 +9,72 @@
     </NavigationPage.TitleView>
 
     <ContentPage.Content>
-        <Grid Padding="50">
+            <ListView ItemsSource="{Binding Items }" SelectionMode="None" ItemTapped="FemaleClothing_Tapped" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Margin="5" Orientation="Vertical" HorizontalOptions="Center">
+
+                                <Image Source="{Binding ImagePath}"  
+                                       HeightRequest="90"
+                                       BackgroundColor="Black"/>
+                                
+                                <Label TextColor="Black"
+                                       Text="{Binding Description}"
+                                       FontSize="Subtitle"
+                                       HorizontalTextAlignment="Center"/>
+
+                                <Label TextColor="Black"
+                                       Text="{Binding FormattedPrice}"
+                                       FontSize="Subtitle"
+                                       HorizontalTextAlignment="Center"/>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+            <!--Grid Padding="50">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
 
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
             <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="0">
                 <ImageButton Source="maletshirt1.jpg"  
                              HeightRequest="90"
-                             BackgroundColor="Black" />
+                             BackgroundColor="Black"
+                             Clicked="ImageButton_Clicked"/>
             </StackLayout>
 
             <StackLayout Margin="20" Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0">
                 <ImageButton Source="maletshirt2.jpg" 
                              HeightRequest="90"
-                             BackgroundColor="Black" 
-                             />
+                             BackgroundColor="Black"
+                             Clicked="ImageButton_Clicked"/>
+                
             </StackLayout>
 
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="0" Grid.Row="1">
                 <ImageButton Source="maletshirt3.jpg" 
                              HeightRequest="90"
                              BackgroundColor="Black"
-                             />
+                             Clicked="ImageButton_Clicked"/>
             </StackLayout>
 
             <StackLayout Orientation="Vertical" HorizontalOptions="Center" Grid.Column="1" Grid.Row="1">
                 <ImageButton Source="maletshirt4.jpg" 
                              HeightRequest="90"
-                             BackgroundColor="Black" 
-                            />
+                             BackgroundColor="Black"
+                             Clicked="ImageButton_Clicked"/>
             </StackLayout>
 
-        </Grid>
-
-
+        </Grid-->
     </ContentPage.Content>
 </ContentPage>

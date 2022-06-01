@@ -2,11 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NETSWAGOrderingApp.Profile" Title="Profile" IconImageSource="profile.png">
+
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="My profile"/>
+            <Button Text="Online Orders"/>
+            <Button Text="Wish Lists"/>
+            <Button Text="Settings"/>
+            <Button Text="Sign Out"/>
+
         </StackLayout>
+
+
+
     </ContentPage.Content>
 </ContentPage>

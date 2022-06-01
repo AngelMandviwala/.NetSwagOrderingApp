@@ -13,6 +13,7 @@ namespace NETSWAGOrderingApp
         public MainPage()
         {
             InitializeComponent();
+
         }
     }
 }

@@ -12,15 +12,10 @@ namespace NETSWAGOrderingApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Shop : ContentPage
     {
-       
-
         public Shop()
         {
             InitializeComponent();
-
-          
         }
-
 
         private async void Female_Clothing(object sender, EventArgs e)
         {

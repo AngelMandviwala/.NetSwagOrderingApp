@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NETSWAGOrderingApp.AddToYourBag">
+
+    <NavigationPage.TitleView>
+        <Label Text="{Binding Item.Description}"
+               TextColor="Black"
+               HorizontalTextAlignment="Start"
+               FontAttributes="Bold"
+               FontSize="Body"/>
+    </NavigationPage.TitleView>
+    
+        
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{Binding Item.ImagePath}"
+                   HeightRequest="200"
+                   WidthRequest="300"/>
+            
+            <!--Label Text="{Binding Item.ItemId}"-->
+
+            <Label Text="{Binding Item.FormattedPrice}"
+                   FontSize="Medium"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Black"
+                   FontAttributes="Bold"/>
+
+            <Label Text="{Binding Item.ItemId}"
+                   TextColor="Black"
+                   FontSize="Medium"/>
+
+            <StackLayout>
+                <Label x:Name="_quantity"
+                   Text="Quantity"
+                   TextColor="Black"
+                   Margin="10"
+                   FontSize="Medium"
+                   FontAttributes="Bold"/>
+
+                <Label  Text="{Binding Item.Quantity}"/>
+
+                <Stepper Minimum="1" Maximum="10" Value="{Binding Item.Quantity }" />
+
+
+            </StackLayout>
+            <Label Text="Colour"
+                   TextColor="Black"
+                   Margin="10"
+                   FontSize="Medium"
+                   FontAttributes="Bold"/>
+            
+
+            <Button Text="Add to bag"
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    Clicked="AddBagButton_Clicked"
+                    />
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
