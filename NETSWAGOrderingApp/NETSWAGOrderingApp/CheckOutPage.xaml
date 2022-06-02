@@ -3,80 +3,86 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NETSWAGOrderingApp.CheckOutPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Name"
-                   FontSize="Medium"
-                   Padding="5"
-                   TextColor="Black"/>
-
-            <Entry x:Name="name"
-                   Text="{Binding Name}"
-                   ClearButtonVisibility="WhileEditing"/>
-
-
-            <Label Text="Gender"
-                   FontSize="Medium"
-                   Padding="5"
-                   TextColor="Black"/>
-
-            <Entry x:Name="gender"
-                   Text="{Binding Gender}"
-                   ClearButtonVisibility="WhileEditing"/>
-
-            <Label Text="T-Shirt Size(S,M,L,XL)"
-                   FontSize="Medium"
-                   Padding="5"
-                   TextColor="Black"/>
-
-            <Entry x:Name="TShirt" 
-                   Text="{Binding Size}"
-                   ClearButtonVisibility="WhileEditing"/>
+        <ScrollView VerticalScrollBarVisibility="Always">
+            <StackLayout>
+                <Label Text="Name"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Padding="5"
+                       TextColor="Black"/>
+                <Entry x:Name="name"
+                       Text="{Binding Name}"
+                       ClearButtonVisibility="WhileEditing"/>
 
 
-            <Label Text="Date Of Order"
-                   FontSize="Medium"
-                   Padding="5"
-                   TextColor="Black"/>
+                <Label Text="Gender"
+                       FontSize="22"
+                       FontAttributes="Bold"                      
+                       Padding="5"
+                       TextColor="Black"/>
+                <RadioButton Content="Female"
+                             FontSize="20"/>
+                <RadioButton Content="Male"
+                             FontSize="20"/>
 
-            <Label Text="{Binding FormattedOrderDate}"
-                   FontSize="Small"
-                   Padding="5"
-                   TextColor="Black"/>
+                <Label Text="T-Shirt Size"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Padding="5"
+                       TextColor="Black"/>
+                <RadioButton Content="S"
+                             FontSize="20"/>
+                <RadioButton Content="M"
+                             FontSize="20"/>
+                <RadioButton Content="L"
+                             FontSize="20"/>
+                <RadioButton Content="XL"
+                             FontSize="20"/>
 
-            <Label Text="T-Shirt Color"
-                   FontSize="Medium"
-                   Padding="5"
-                   TextColor="Black"/>
+                <Label Text="Date Of Order"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Padding="5"
+                       TextColor="Black"/>
+                <Label Text="{Binding FormattedOrderDate}"
+                       FontSize="20"
+                       Padding="5"
+                       TextColor="Black"/>
 
-            <Entry x:Name="TShirtColor"
-                   Text="{Binding Color}"
-                   ClearButtonVisibility="WhileEditing"/>
+                <Label Text="T-Shirt Color"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Padding="5"
+                       TextColor="Black"/>
+                <RadioButton Content="Black"
+                             FontSize="20"/>
+                <RadioButton Content="White"
+                             FontSize="20"/>
+                <RadioButton Content="Grey"
+                             FontSize="20"/>
+                <RadioButton Content="Navy"
+                             FontSize="20"/>
 
-            <Label Text="Shipping Address"
-                   FontSize="Medium"
-                   Padding="5"
-                   TextColor="Black"/>
+                <Label Text="Shipping Address"
+                       FontSize="22"
+                       FontAttributes="Bold"
+                       Padding="5"
+                       TextColor="Black"/>
 
-            <Entry x:Name="ShippingAddress"
-                   Text="{Binding ShippingAddress}"
-                   ClearButtonVisibility="WhileEditing"/>
+                <Entry x:Name="ShippingAddress"
+                       Text="{Binding ShippingAddress}"
+                       FontSize="20"
+                       ClearButtonVisibility="WhileEditing"/>
 
-            <Button Text="Place my order"
-                    FontSize="Medium"
-                    TextColor="black"
-                    VerticalOptions="EndAndExpand"
-                    Clicked="OrderPlaced_Clicked"/>
+                <Button Text="Place my order"
+                        FontSize="22"
+                        FontAttributes="Bold"
+                        TextColor="black"
+                        VerticalOptions="EndAndExpand"
+                        Clicked="OrderPlaced_Clicked"/>
+            </StackLayout>
 
-
-
-
-
-
-
-
-
-
-
-        </StackLayout>
-    </ContentPage.Content>
+        </ScrollView>
+        
+   </ContentPage.Content>
 </ContentPage>

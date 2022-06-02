@@ -25,6 +25,8 @@ namespace NETSWAGOrderingApp
         }
         private async void OrderPlaced_Clicked(object sender, EventArgs e)
         {
+            await DisplayAlert("Alert", "You have successfully placed your order", "ok");
+
             var item = BindingContext as OrderPlacement;
 
             var db = ShoppingDatabase.Instance;

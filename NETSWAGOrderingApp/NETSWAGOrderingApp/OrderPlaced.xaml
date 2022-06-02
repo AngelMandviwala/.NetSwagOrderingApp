@@ -2,16 +2,40 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NETSWAGOrderingApp.OrderPlaced">
+    
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="{Binding Name}"/>
-            <Label Text="{Binding Gender}"/>
-            <Label Text="{Binding Size}"/>
-            <Label Text="{Binding Color}"/>
-            <Label Text="{Binding Quantity}"/>
-            <Label Text="{Binding FormattedPrice}"/>
-            <Label Text="{Binding ShippingAddress}"/>
-            <Label Text="{Binding FormattedOrderDate}"/>
+            <Frame>
+                <Label Text="Please see your order below that has been placed"
+                       TextColor="Black"
+                       FontAttributes="Bold"
+                       FontSize="22"/>
+            </Frame>
+
+            <Label Text="{Binding Name}"
+                   FontSize="Medium"
+                   TextColor="Black"/>
+            <Label Text="{Binding Gender}"
+                   FontSize="Medium"
+                   TextColor="Black"/>            
+            <Label Text="{Binding Size}"
+                   FontSize="Medium"
+                   TextColor="Black"/>           
+            <Label Text="{Binding Color}"
+                   FontSize="Medium"
+                   TextColor="Black"/>            
+            <Label Text="{Binding Quantity}"
+                   FontSize="Medium"
+                   TextColor="Black"/>            
+            <Label Text="{Binding FormattedPrice}"
+                   FontSize="Medium"
+                   TextColor="Black"/>            
+            <Label Text="{Binding ShippingAddress}" 
+                   FontSize="Medium"
+                   TextColor="Black"/>            
+            <Label Text="{Binding FormattedOrderDate}"
+                   FontSize="Medium"
+                   TextColor="Black"/>
             <!--ListView HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None">
                 <ListView.ItemTemplate>
                     <DataTemplate>

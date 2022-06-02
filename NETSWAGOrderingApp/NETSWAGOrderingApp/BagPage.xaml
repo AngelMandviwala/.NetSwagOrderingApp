@@ -7,9 +7,7 @@
         <ListView ItemsSource="{Binding BagItems}" HasUnevenRows="True" SeparatorVisibility="None" SelectionMode="None">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
-
-
+                        <ViewCell>
                             <Grid>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="*"/>
@@ -21,13 +19,12 @@
                                     <ColumnDefinition Width="50"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-
 
                                 <Image Source="{Binding ImagePath}"  Grid.RowSpan="3" Aspect="AspectFill" Margin="5"/>
                                 <Label Text="{Binding Description}" Grid.Row="0" Grid.Column="1"/>
                                 <Label Text="{Binding FormattedPrice}" Grid.Row="1" Grid.Column="1"/>
-
 
                             </Grid>
                         </ViewCell>
