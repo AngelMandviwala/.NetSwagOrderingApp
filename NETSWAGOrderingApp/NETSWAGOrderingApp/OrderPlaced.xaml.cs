@@ -10,13 +10,15 @@ using Xamarin.Forms.Xaml;
 namespace NETSWAGOrderingApp
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Bag : ContentPage
+    public partial class OrderPlaced : ContentPage
     {
-        public List<ItemDetails> BagItems { get; set; }
+        private int _placementId;
 
-        public Bag()
+        public OrderPlaced(int placementId)
         {
             InitializeComponent();
+
+            _placementId = placementId;
         }
 
         protected override void OnAppearing()
@@ -25,15 +27,9 @@ namespace NETSWAGOrderingApp
 
             var db = ShoppingDatabase.Instance;
 
-            BagItems = db.GetShopping();
+            var orderPlacement = db.GetOrderPlacementById(_placementId);
 
-            BindingContext = this;
-        }
-
-        private async void CheckOut_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new CheckOutPage());
-
+            BindingContext = orderPlacement;
         }
     }
 }

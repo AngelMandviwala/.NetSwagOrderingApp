@@ -44,18 +44,11 @@
 
 
             </StackLayout>
-            <Label Text="Colour"
-                   TextColor="Black"
-                   Margin="10"
-                   FontSize="Medium"
-                   FontAttributes="Bold"/>
-            
 
             <Button Text="Add to bag"
                     FontAttributes="Bold"
                     FontSize="Medium"
-                    Clicked="AddBagButton_Clicked"
-                    />
+                    Clicked="AddBagButton_Clicked"/>
 
 
 

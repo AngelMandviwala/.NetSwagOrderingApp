@@ -23,10 +23,13 @@ namespace NETSWAGOrderingApp
             BindingContext = this;
         }
 
-        private void AddBagButton_Clicked(object sender, EventArgs e)
+        private async void AddBagButton_Clicked(object sender, EventArgs e)
         {
+            await DisplayAlert("Alert","Your item has been added to your bag","ok");
 
             var db = ShoppingDatabase.Instance;
+
+            Item.OrderDate = DateTime.Now;  
 
             db.SaveShopping(Item);
 

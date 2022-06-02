@@ -35,10 +35,20 @@ namespace NETSWAGOrderingApp
 
         }
 
+        public int OrderPlacementId { get; set; }
+
 
         public int ItemId { get; set; }
 
         public DateTime OrderDate { get; set; }
+
+        public string FormattedOrderDate 
+        { 
+            get
+            {
+                return OrderDate.ToString();
+            } 
+        }
 
         public string FormattedPrice 
         {

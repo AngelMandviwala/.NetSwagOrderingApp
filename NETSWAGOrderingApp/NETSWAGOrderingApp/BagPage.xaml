@@ -9,43 +9,44 @@
                 <DataTemplate>
                     <ViewCell>
 
-                        
-                        <Grid>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
 
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="50"/>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
 
-
-                            <Image Source="{Binding ImagePath}"  Grid.RowSpan="3" Aspect="AspectFill" Margin="5"/>
-                            <Label Text="{Binding Description}" Grid.Row="0" Grid.Column="1"/>
-                            <Label Text="{Binding Price}" Grid.Row="1" Grid.Column="1"/>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
 
 
-                        </Grid>
-                        
-                       
-                    </ViewCell>
+                                <Image Source="{Binding ImagePath}"  Grid.RowSpan="3" Aspect="AspectFill" Margin="5"/>
+                                <Label Text="{Binding Description}" Grid.Row="0" Grid.Column="1"/>
+                                <Label Text="{Binding FormattedPrice}" Grid.Row="1" Grid.Column="1"/>
+
+
+                            </Grid>
+                        </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-            <Button Text="Click me"></Button>
-            <Frame CornerRadius="45" HorizontalOptions="Center" WidthRequest="80" Margin="0" Padding="0">
-                <Image Source="tshirt1.jpg">
+            
+            <Button Text="Check out"
+                    FontAttributes="Bold"
+                    FontSize="Medium"
+                    Clicked="CheckOut_Clicked"/>
 
-                    <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
-                    </Image.GestureRecognizers>
-                    
-                </Image>
-            </Frame>
+            <Frame CornerRadius="45" 
+                   HorizontalOptions="Center" 
+                   WidthRequest="80" 
+                   Margin="0" 
+                   Padding="0"/>
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
